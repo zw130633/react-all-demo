@@ -23,7 +23,11 @@ module.exports = {
 	        loader: 'coffee-loader'
 	    }, {
 	        test: /\.css$/,
-	        loader: "css-loader"
+	        //loader: "css-loader"
+	        loader: "style!css"
+	    }, {
+	        test: /\.scss$/,
+	        loader: "style!css!sass"
 	    }, {
 	        test: /\.jsx?$/,
 	        exclude: /(node_modules|bower_components)/,
@@ -39,5 +43,8 @@ module.exports = {
 	            presets: ['es2015','react','stage-2','stage-3']
 	        }
 	    }]
+	},
+	resolve:{
+		extensions:['','.js','.css','.scss']
 	}
 }
