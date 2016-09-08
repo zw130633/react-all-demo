@@ -1,2 +1,2 @@
 # react-all-demo
-React-Router-Rudex
+React-Router-Redux
