@@ -1,6 +1,6 @@
 var path = require('path')
 var webpack = require('webpack')
-var rootName = '/router-test5'
+var rootName = '/react-all-demo'
 
 module.exports = {
   devtool: 'cheap-module-eval-source-map',
