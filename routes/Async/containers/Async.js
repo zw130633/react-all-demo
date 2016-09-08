@@ -36,7 +36,7 @@ class App extends Component {
   }
 
   render() {
-  	console.dir(this.props);
+  	//console.dir(this.props);
     const { selectedReddit, posts, isFetching, lastUpdated } = this.props
     const isEmpty = posts.length === 0
     return (
@@ -80,8 +80,6 @@ App.propTypes = {
 //module.exports = App
 
 function mapStateToProps(state) {
-	console.log('123');
-	console.dir(state);
 	const { selectedReddit, postsByReddit } = state
 	const {
 	    isFetching,
