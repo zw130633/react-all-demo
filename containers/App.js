@@ -4,6 +4,8 @@ import { connect } from 'react-redux'
 import Dashboard from '../components/Dashboard'
 import GlobalNav from '../components/GlobalNav'
 
+import img1 from '../style/bg.png'
+
 class App extends Component {
   render() {
   	const { children, inputValue } = this.props
@@ -17,6 +19,16 @@ class App extends Component {
     )
   }
 }
+
+//      <div style={{ padding: 20 }}>
+//        {this.props.children || <Dashboard courses={COURSES} />}
+//      </div>
+////      <h1>rrrr</h1>
+////      <img src= {require('/react-all-demo-github/style/bg.png')} />
+//				<img src= {img1} />
+//        <img style={{'float':'left'}} src= {img1} />
+//    </div>
+////    <img src= {require('/react-all-demo-github/style/bg.png')} />
 
 //module.exports = App
 

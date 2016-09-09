@@ -1,6 +1,7 @@
 body {
   font-family: "Helvetica Neue", Arial;
   font-weight: 200;
+  background: url('bg.png') no-repeat;
 }
 
 h1, h2, h3 {

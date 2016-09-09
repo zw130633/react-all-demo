@@ -81,7 +81,7 @@ import { browserHistory,hashHistory } from 'react-router'
 import { syncHistoryWithStore } from 'react-router-redux'
 import Root from './routes/Root'
 import configureStore from './store/configureStore'
-require('./style/global')
+require('./style/app')
 
 const store = configureStore()
 const history = syncHistoryWithStore(hashHistory, store)
