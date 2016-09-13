@@ -6,6 +6,7 @@ import GlobalNav from '../components/GlobalNav'
 
 import img1 from '../style/bg.png'
 
+//module.hot.accept = true
 class App extends Component {
   render() {
   	const { children, inputValue } = this.props
@@ -37,5 +38,9 @@ class App extends Component {
 function mapStateToProps(state, ownProps) {
   return {}
 }
+//console.log(module.hot);
+//if(module.hot) {
+//  module.hot.accept()
+//}
 
 export default connect(mapStateToProps)(App)

@@ -61,5 +61,7 @@ GlobalNav.defaultProps = {
     name: 'Ryan Florence'
   }
 }
-
+//if(module.hot) {
+//  module.hot.accept()
+//}
 export default GlobalNav

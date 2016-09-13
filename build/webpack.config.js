@@ -6,7 +6,7 @@ module.exports = {
   devtool: 'cheap-module-eval-source-map',
   entry: [
     'webpack-hot-middleware/client',
-    './index'
+    './src/index'
   ],
   output: {
     path: path.join(__dirname, 'dist'),
@@ -35,14 +35,28 @@ module.exports = {
 	        query: {
 	            presets: ['es2015','react']
 	        }
-	    },{
+	    },
+	    /*{
 	        test: /\.js?$/,
 	        exclude: /node_modules/,
 	        loader: 'babel', // 'babel-loader' is also a legal name to reference
 	        query: {
 	            presets: ['es2015','react','stage-2','stage-3']
 	        }
-	    },
+	    },*/
+	    {
+        test: /\.js$/,
+        loader: 'babel',
+        exclude: /node_modules/,
+      	/*query:{
+				  "presets": ["es2015", "react",'stage-2','stage-3'],
+				  "env": {
+				    "development": {
+				      "presets": ["react-hmre"]
+				    }
+				  }
+				}*/
+      },
 	    {
 	    	test: /\.(jpg|png)$/, 
 	    	loader: "url?limit=50000"
