@@ -85,10 +85,10 @@ import App from './containers/App'
 require('./style/app')
 
 const store = configureStore()
-const history = syncHistoryWithStore(hashHistory, store)
+const history = syncHistoryWithStore(browserHistory, store)
 
 render(
   <Root store={store} history={history} />,
-  document.getElementById('example')
+  document.getElementById('root')
 )
 

@@ -7,7 +7,7 @@ class Dashboard extends Component {
 
     return (
       <div>
-        <h2>Super Scalable Apps 800</h2>
+        <h2>Super Scalable Apps 8008</h2>
         <p>
           Open the network tab as you navigate. Notice that only the amount of
           your app that is required is actually downloaded as you navigate

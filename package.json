@@ -9,8 +9,8 @@
   },
   "author": "ZhouWei",
   "license": "ISC",
-  "scripts":{
-  	"start": "node ./build/server"
+  "scripts": {
+    "start": "node ./build/server"
   },
   "bugs": {
     "url": "https://github.com/starkwang/react-redux-es6-quickstart/issues"
