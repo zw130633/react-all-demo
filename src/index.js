@@ -81,14 +81,17 @@ import { browserHistory,hashHistory } from 'react-router'
 import { syncHistoryWithStore } from 'react-router-redux'
 import Root from './routes/Root'
 import configureStore from './store/configureStore'
+import useBasename from 'history/lib/useBasename'
 import App from './containers/App'
 require('./style/app')
 
 const store = configureStore()
 const history = syncHistoryWithStore(browserHistory, store)
 
+//<Root store={store} history={useBasename(() => history)({ basename: `/react-all-demo/src/index.html` })} />,
+
 render(
-  <Root store={store} history={history} />,
+  <Root store={store} history={useBasename(() => history)({ basename: `/react-all-demo/src/index.html` })} />,
   document.getElementById('root')
 )
 

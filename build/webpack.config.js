@@ -5,11 +5,11 @@ var rootName = '/react-all-demo'
 module.exports = {
   devtool: 'cheap-module-eval-source-map',
   entry: [
-    'webpack-hot-middleware/client',
-    './src/index'
+    'webpack-hot-middleware/client',//webpack 打包的时候把它注释掉
+    './src/index'                   //webpack 打包的时候改成 ../src/index
   ],
   output: {
-    path: path.join(__dirname, 'dist'),
+    path: path.join(__dirname, '../dist'),
     filename: 'bundle.js',
     publicPath: rootName+'/dist/'
   },

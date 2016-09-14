@@ -54,3 +54,26 @@ export default (
     <Route path="async" component={Async} />
   </Route>
 )
+
+//import React from 'react'
+//import { render } from 'react-dom'
+//import { Router, browserHistory, hashHistory } from 'react-router'
+//
+//import { syncHistoryWithStore } from 'react-router-redux'
+//
+//import './stubs/COURSES'
+//
+//const rootRoute = {
+//childRoutes: [ {
+//  path: '/',
+//  component: require('./containers/App'),
+//  childRoutes: [
+//    require('./routes/Calendar'),
+//    require('./routes/Course'),
+//    require('./routes/Grades'),
+//    require('./routes/Messages'),
+//    require('./routes/Async'),
+//    require('./routes/Profile')
+//  ]
+//} ]
+//}
