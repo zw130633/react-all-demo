@@ -1,11 +1,11 @@
 {
-  "name": "hotyq-react-demo",
+  "name": "react-all-demo",
   "version": "1.0.0",
   "description": "",
   "main": "bundle.js",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/starkwang/react-redux-es6-quickstart.git"
+    "url": "git+https://github.com/zw130633/react-all-demo.git"
   },
   "author": "ZhouWei",
   "license": "ISC",
@@ -13,9 +13,9 @@
     "start": "node ./build/server"
   },
   "bugs": {
-    "url": "https://github.com/starkwang/react-redux-es6-quickstart/issues"
+    "url": "https://github.com/zw130633/react-all-demo/issues"
   },
-  "homepage": "https://github.com/starkwang/react-redux-es6-quickstart#readme",
+  "homepage": "https://github.com/zw130633/react-all-demo#readme",
   "dependencies": {
     "babel-polyfill": "^6.3.14",
     "humps": "^0.6.0",
