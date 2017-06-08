@@ -27,10 +27,11 @@ import CourseGrades from './routes/Course/routes/Grades/components/Grades'
 import Calendar from './routes/Calendar/components/Calendar'
 import Grades from './routes/Grades/components/Grades'
 import Messages from './routes/Messages/components/Messages'
-import Async from './routes/Async/containers/Async'
+//import Async from './routes/Async/containers/Async'
 //import Async from './containers/Async'
 
-export default (
+/*******************************之前******************************/
+/*export default (
   <Route path="/" component={App}>
     <Route path="calendar" component={Calendar} />
     <Route path="course/:courseId" component={Course}>
@@ -53,7 +54,7 @@ export default (
     <Route path="profile" component={Calendar} />
     <Route path="async" component={Async} />
   </Route>
-)
+)*/
 
 //import React from 'react'
 //import { render } from 'react-dom'
